@@ -1,0 +1,100 @@
+h1{
+    display:flex;
+    justify-content: center;
+
+}
+
+.cell1{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.cell2{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.cell3{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.cell4{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.cell5{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.cell6{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.cell7{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size:100px;
+}
+.cell8{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size:100px;
+}
+.cell9{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    font-size:100px
+}
+#box1{
+    display:flex;
+    justify-content:center;
+
+}
+#box2{
+    display:flex;
+    justify-content:center;
+}
+#box3{
+    display:flex;
+    justify-content:center;
+}
+.cell1:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell2:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell3:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell4:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell5:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell6:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell7:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell8:hover{
+    background-color:rgb(222, 154, 222);
+}
+.cell9:hover{
+    background-color:rgb(222, 154, 222);
+}
