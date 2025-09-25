@@ -25,10 +25,14 @@ boxes.forEach((box)=>{
         }
         box.disabled = true
         checkWinner();
-        
     })
 })
 
+const disableboxes = () =>{
+  for(let box of boxes){
+    box.disabled = true;
+  }
+}
 const checkWinner = () => {
   for (let pattern of winning) {
     let pos1Val = boxes[pattern[0]].innerText;
@@ -38,12 +42,11 @@ const checkWinner = () => {
     if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
       if (pos1Val === pos2Val && pos2Val === pos3Val) {
         if(pos1Val=="X"){
-            let winnerrx = document.getElementById("winnerx").style.color="green";
-            break; 
-            
+            let winnerrx = document.getElementById("winnerx").style.color="green";   
+            disableboxes();      
         }else{
             let winnerro = document.getElementById("winnero").style.color="green";
-            break;
+            disableboxes();
         }
         }
 

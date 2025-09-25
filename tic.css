@@ -1,62 +1,15 @@
 h1{
     display:flex;
     justify-content: center;
-
+    margin:0px;
+    padding:0px
 }
 
-.cell1{
+.boxcell{
     height:200px;
     width:200px;
     border: 2px solid black;
     font-size: 100px;
-}
-.cell2{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size: 100px;
-}
-.cell3{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size: 100px;
-}
-.cell4{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size: 100px;
-}
-.cell5{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size: 100px;
-}
-.cell6{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size: 100px;
-}
-.cell7{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size:100px;
-}
-.cell8{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size:100px;
-}
-.cell9{
-    height:200px;
-    width:200px;
-    border: 2px solid black;
-    font-size:100px
 }
 #box1{
     display:flex;
@@ -78,11 +31,11 @@ h1{
 }
 #winnero{
     color:white;
-    display:flex;
-    justify-content:center;
 }
 #winnerx{
     color:white;
-    display:flex;
-    justify-content:center;
+}
+.Reload{
+    height:60px;
+    width:100px;
 }
