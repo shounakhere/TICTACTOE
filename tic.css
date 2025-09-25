@@ -71,30 +71,18 @@ h1{
     display:flex;
     justify-content:center;
 }
-.cell1:hover{
-    background-color:rgb(222, 154, 222);
+
+#box{
+    background-color:yellow;
+    color:black;
 }
-.cell2:hover{
-    background-color:rgb(222, 154, 222);
+#winnero{
+    color:white;
+    display:flex;
+    justify-content:center;
 }
-.cell3:hover{
-    background-color:rgb(222, 154, 222);
-}
-.cell4:hover{
-    background-color:rgb(222, 154, 222);
-}
-.cell5:hover{
-    background-color:rgb(222, 154, 222);
-}
-.cell6:hover{
-    background-color:rgb(222, 154, 222);
-}
-.cell7:hover{
-    background-color:rgb(222, 154, 222);
-}
-.cell8:hover{
-    background-color:rgb(222, 154, 222);
-}
-.cell9:hover{
-    background-color:rgb(222, 154, 222);
+#winnerx{
+    color:white;
+    display:flex;
+    justify-content:center;
 }
